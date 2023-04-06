@@ -13,6 +13,7 @@ export default {
       },
       textColor: {
         'primary' : '#212B36',
+        'secondary' : '#945D87',
       },
       borderColor: {
         'primary' : '#945D87',
@@ -20,8 +21,15 @@ export default {
       backgroundColor: {
         'primary' : '#F8FAFF',
         'secondary' : '#945D87',
+        'secondary-200' : '#E9E2ED',
         'accent': '#EECC70',
-      }
+      },
+      ringColor: {
+        'secondary' : '#945D87',
+      },
+      ringOffsetColor: {
+        'secondary' : '#E9E2ED',
+      },
   },
 },
   plugins: [],
