@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center text-center">
+    <div className="flex min-h-screen items-center justify-center text-center font-manrope">
       {currentForm == "login" ? (
         <Login onFormSwitch={toggleForm} />
       ) : (

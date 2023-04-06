@@ -14,7 +14,7 @@ export const Login = ({
   };
 
   return (
-    <div className="flex flex-col items-center justify-center border-2 border-primary p-20 font-publicsans">
+    <div className="flex flex-col items-center justify-center border-2 border-primary p-20">
       <form className="flex flex-col items-center" onSubmit={handleSubmit}>
         <label className="px-0 py-1 text-left text-primary" htmlFor="email">
           Email
