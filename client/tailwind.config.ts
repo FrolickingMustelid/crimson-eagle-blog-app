@@ -1,4 +1,5 @@
 import { type Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme"
 
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -6,18 +7,21 @@ export default {
     extend:
     {
       fontFamily: {
-      'publicsans': ['PublicSans', 'sans-serif']
-    },
-    textColor: {
-      'primary' : '#212B36',
-    },
-    borderColor: {
-      'primary' : '#945D87',
-    },
-    backgroundColor: {
-      'primary' : '#F8FAFF',
-      'secondary' : '#945D87',
-    }
+        manrope: ['var(--font-manrope)', ...fontFamily.sans],
+        signika: ['var(--font-signika)', ...fontFamily.sans],
+        signikaNegative: ['var(--font-signika-negative)', ...fontFamily.sans],
+      },
+      textColor: {
+        'primary' : '#212B36',
+      },
+      borderColor: {
+        'primary' : '#945D87',
+      },
+      backgroundColor: {
+        'primary' : '#F8FAFF',
+        'secondary' : '#945D87',
+        'accent': '#EECC70',
+      }
   },
 },
   plugins: [],
