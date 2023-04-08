@@ -30,6 +30,14 @@ export default {
       ringOffsetColor: {
         'secondary' : '#E9E2ED',
       },
+      stroke: {
+        'accent' : '#EECC70',
+      },
+      screens: {
+        xxs: '360px',
+        xs: '480px',
+        uw: '1920px',
+      }
   },
 },
   plugins: [],

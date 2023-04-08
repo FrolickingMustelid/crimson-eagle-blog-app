@@ -5,7 +5,7 @@ const SearchForm = () => (
         <input
             className="w-full pl-12 pr-4 py-3 rounded-[20px] bg-secondary-200
                 placeholder:text-secondary placeholder:font-semibold
-                focus:outline-none focus:ring-2 ring-secondary ring-offset-2 ring-offset-white"
+                focus-secondary"
             type="text"
             name="search"
             id="search"
@@ -15,7 +15,7 @@ const SearchForm = () => (
         />
         <button type="submit" title="Search blog posts"
             className="absolute top-1/2 -translate-y-1/2 left-4 p-1 rounded-full
-                focus:outline-none focus:ring-2 ring-secondary ring-offset-2 ring-offset-secondary">
+                focus-secondary ring-offset-secondary">
             <Image                
                 src="/search-icon.svg"
                 width={ 18 }
