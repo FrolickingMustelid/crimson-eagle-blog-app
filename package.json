@@ -1,0 +1,9 @@
+{
+  "name": "crimson-eagle-blog-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd ../client && next build",
+    "dev": "cd ../client && next dev",
+    "start": "cd ../client && next start"
+  }
+}
